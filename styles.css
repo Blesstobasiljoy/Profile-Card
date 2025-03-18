@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border: 4px solid #6a11cb;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    padding: 10px;
+    width: 100%; 
+}
+
+.info h1{
+    margin: 0px 0 15px 0;
+    font-size: 35px;
+    color: #333;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.skills {
+    margin-top: 20px;
+    width: 100%; 
+}
+
+.skills h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.skills p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.linkedin-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 119, 181, 0.3);
+}
+
+.linkedin-btn:hover {
+    background-color: #005582;
+    transform: translateY(-2px);
+}
